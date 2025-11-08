@@ -1,0 +1,65 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Environment files
+.env
+*.env
+
+# IDE / Editor settings
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and output
+*.log
+logs/
+debug.log
+
+# Compiled / temp files
+*.out
+*.bak
+*.tmp
+*.pid
+
+# Jupyter notebooks (if any)
+*.ipynb_checkpoints/
+
+# Cache folders
+.cache/
+.pytest_cache/
+.mypy_cache/
+
+# FastAPI specific
+__pypackages__/
+*.db
+*.sqlite3
+
+# Build artifacts
+dist/
+build/
+
+# CrewAI or LangChain local cache
+.langchain/
+crewai_cache/
+
+# Reports / PDFs / data
+reports/
+*.pdf
+*.json
+
+# If using poetry or pipenv
+poetry.lock
+Pipfile.lock
+
+
