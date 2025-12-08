@@ -1,4 +1,32 @@
-fastapi
-uvicorn
-httpx
-python-dotenv
+# Core framework
+fastapi==0.115.0
+uvicorn==0.32.0
+python-dotenv==1.0.1
+
+# Agentic AI
+langgraph
+langchain
+langchain-openai
+langchain-community
+
+# LLMs / Model APIs
+openai
+tiktoken
+
+# Data handling
+pandas
+numpy
+
+# Report generation
+fpdf
+jinja2
+openpyxl
+
+# Networking
+requests
+python-multipart
+
+# Utilities
+pydantic
+pydantic-settings
+redis
