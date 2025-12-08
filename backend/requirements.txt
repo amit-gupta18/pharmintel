@@ -1,28 +1,4 @@
-# --- Core framework ---
-fastapi==0.115.0
-uvicorn==0.32.0
-
-# --- Agentic AI ---
-crewai==0.28.8
-langchain==0.3.3
-langchain-core==0.3.15
-langchain-community==0.3.3
-
-# --- LLMs / Model APIs ---
-openai==1.51.2
-tiktoken==0.7.0
-
-# --- Data handling ---
-pandas==2.2.3
-numpy==1.26.4
-
-# --- PDF / Report generation (optional) ---
-fpdf==1.7.2
-
-# --- CORS and Networking ---
-requests==2.32.3
-python-multipart==0.0.9
-
-# --- Utilities ---
-pydantic==2.9.2
-python-dotenv==1.0.1
+fastapi
+uvicorn
+httpx
+python-dotenv
